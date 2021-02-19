@@ -1,1 +1,1 @@
-# meetup-nodejs
+# meetup-api-node-public
