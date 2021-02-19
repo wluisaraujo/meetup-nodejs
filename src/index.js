@@ -5,11 +5,11 @@ const DEFAULT_HEADER = { 'Content-Type': 'application/json' }
 
 const routes = {
     'hookahs:get': async (request, response) => {
-
+        response.end(hookahs:get)
     },
     default: async (request, response) => {
-        response.end('404')
-
+        response.writeHead(404, DEFAULT_HEADER)
+        return response.end()
     },
 }
 
